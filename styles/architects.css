@@ -207,7 +207,16 @@ main > section {
 .footer {
   background-color: rgba(255, 244, 231, 1);
   text-align: center;
+  border-radius: 8px;
   max-width: 1440px;
+  height: 23px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  margin: 20px auto;
+}
+.footer p {
+  font-size: 1.25rem;
+  margin: 0;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
